@@ -373,6 +373,21 @@ PrefabInstance:
       propertyPath: m_IsKinematic
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114783824653081440, guid: 7a87b73c9eb3b0f42bd28e2e20aba3be,
+        type: 3}
+      propertyPath: dissolveTime
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114783824653081440, guid: 7a87b73c9eb3b0f42bd28e2e20aba3be,
+        type: 3}
+      propertyPath: maxStartTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114783824653081440, guid: 7a87b73c9eb3b0f42bd28e2e20aba3be,
+        type: 3}
+      propertyPath: minStartTime
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
