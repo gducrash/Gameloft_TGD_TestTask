@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/3DGamekit/Scenes/GamePlay/Level2.unity
     guid: bfc86215544d6ab42b838135fdd17f21
   - enabled: 0
-    path: Assets/3DGamekit/Scenes/_TemplateScene.unity
+    path: Assets/AssetPacks/3DGamekit/Scenes/_TemplateScene.unity
     guid: a93c8f727f3196941b92761d8a44628c
   - enabled: 0
     path: Assets/3DGamekit/Scenes/UI/Loading.unity
