@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Fire_AlphaDistort_Ramped
+  m_Name: TorchFireGreenMaterial
   m_Shader: {fileID: 4800000, guid: d985403ea514e7c46bf7c2fab31b9d95, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -184,12 +184,12 @@ Material:
     - _FresnelColor: {r: 1, g: 1, b: 1, a: 1}
     - _FresnelFrontColor: {r: 1, g: 1, b: 1, a: 0}
     - _GlowColor: {r: 1, g: 1, b: 1, a: 1}
-    - _LastColor: {r: 1, g: 0, b: 0, a: 0}
+    - _LastColor: {r: 0.28381503, g: 1, b: 0, a: 0}
     - _MainAlphaChannel: {r: 0, g: 0, b: 0, a: 1}
     - _MainAlphaPanning: {r: 1, g: 1, b: 0, a: 0}
     - _MainTextureChannel: {r: 1, g: 1, b: 1, a: 0}
     - _MainTexturePanning: {r: 0, g: 0, b: 0, a: 0}
-    - _MidColor: {r: 1, g: 0.26896533, b: 0, a: 0}
+    - _MidColor: {r: 0.5961822, g: 1, b: 0, a: 0}
     - _Resolution: {r: 64, g: 64, b: 0, a: 0}
     - _ScrollingSpeed: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _SecondTexSpeed_NoiseForce: {r: 0.05, g: 0.05, b: 0.5, a: 0.5}
@@ -197,6 +197,6 @@ Material:
     - _UnlitColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _VertexMaskLinearGradient: {r: 1, g: 1, b: 1, a: 1}
     - _VertexMaskUVScaleOffset: {r: 1, g: 1, b: 0, a: 0}
-    - _WhiteColor: {r: 1, g: 0.8482759, b: 0, a: 0}
+    - _WhiteColor: {r: 0.6781707, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
