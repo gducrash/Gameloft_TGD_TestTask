@@ -21,9 +21,36 @@ I have built 2 small demo scenes — one outdoors and one indoors — using the 
 
 <img width="2206" height="1232" alt="image" src="https://github.com/user-attachments/assets/7387f1a3-a0b2-496d-954f-858dd47186b0" />
 
-
 Each scene is optimized to run fast while looking good using Light Probes, Baked GI, Occlusion Culling and other common techniques. The scenes feature a controllable player character, a few NPC characters (such as animals and enemy monsters), interactable elements, moving platforms and a final boss character.
 
 This task was made in 1 week. I started it on September 12th and finished on September 19th.
+
+## Scene Structure
+Each scene follows the following hierarchy structure:
+- **Gameplay** elements contain a death volume below the floor.
+- **GameUtilities** — include a camera rig, transition, checkpoint and audio systems, etc.
+- **UI** — all of the user interface.
+- **Characters** — playable character and NPCs in the scene.
+- **LevelAssets**
+  - **Skybox** — contain skybox geometry, rendered separately by the skybox camera.
+  - **World** — all of the location's objects, decorations and interactable elements. Inside it, there are further categories to organize all of the objects.
+  - **Navmesh** — navmesh guides and surfaces. Used by NPC characters.
+- **Lighting**
+  - **Lights** — contains all static lights. Please do not, that some lights, specifically torch lights and dynamic lights in the characters are located inside those respective objects.
+  - **Probes** — light and reflection probes.
+- **SpawnedPrefabs** — objects spawned at runtime.
+
+## Project Structure
+And here's the overall hierarchy of the project's assets:
+- `/AssetPacks` — contains all external asset packs mentioned above.
+- `/Materials`
+- `/Models`
+  - `/Location` — FBX models specific to the scene locations. Made in Blender.
+- `/Prefabs`
+  - `/Entities` — NPC entities, such as NavMesh agents.
+- `/Scripts`
+- `/Settings` — GI settings used for Light Baking.
+- `/Shaders` — custom shaders.
+- `/Textures` — art and textures not present in the asset packs.
 
 o/
