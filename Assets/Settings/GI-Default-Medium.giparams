@@ -6,7 +6,7 @@ LightmapParameters:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Default-Medium
+  m_Name: GI-Default-Medium
   serializedVersion: 4
   resolution: 1
   clusterResolution: 0.5
