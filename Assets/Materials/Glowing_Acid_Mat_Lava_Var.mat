@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: GlowingAcidMaterial Variant
+  m_Name: Glowing_Acid_Mat_Lava_Var
   m_Shader: {fileID: 4800000, guid: 466f145b96686ce41bc71e6311522812, type: 3}
   m_Parent: {fileID: 2100000, guid: 7a7fd08aa2d315647b8a30abc9660359, type: 2}
   m_ModifiedSerializedProperties: 0

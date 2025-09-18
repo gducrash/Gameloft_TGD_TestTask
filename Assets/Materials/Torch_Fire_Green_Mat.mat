@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TorchFireGreenMaterial
+  m_Name: Torch_Fire_Green_Mat
   m_Shader: {fileID: 4800000, guid: d985403ea514e7c46bf7c2fab31b9d95, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
