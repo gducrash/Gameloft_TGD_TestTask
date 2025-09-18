@@ -39,6 +39,8 @@ Each scene follows the following hierarchy structure:
   - **Lights** — contains all static lights. Please do not, that some lights, specifically torch lights and dynamic lights in the characters are located inside those respective objects.
   - **Probes** — light and reflection probes.
 - **SpawnedPrefabs** — objects spawned at runtime.
+  
+<img width="420" height="952" alt="image" src="https://github.com/user-attachments/assets/368f2156-08f0-4784-8188-d4a0b9ea8365" />
 
 ## Project Structure
 And here's the overall hierarchy of the project's assets:
